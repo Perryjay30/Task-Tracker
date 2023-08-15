@@ -15,7 +15,7 @@ import { AboutComponent } from './component/about/about.component';
 import { FooterComponent } from './component/footer/footer.component';
 
 const appRoutes: Routes = [
-  { path: '', component: TasksComponent },
+  { path: 'tasktracker', component: TasksComponent },
   { path: 'about', component: AboutComponent }
 ]
 
@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     FormsModule,
     RouterModule.forRoot(appRoutes, {enableTracing: true})
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
