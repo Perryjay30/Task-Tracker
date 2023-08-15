@@ -15,8 +15,8 @@ import { AboutComponent } from './component/about/about.component';
 import { FooterComponent } from './component/footer/footer.component';
 
 const appRoutes: Routes = [
-  {path: '', component: TasksComponent},
-  {path: 'about', component: AboutComponent }
+  { path: '', component: TasksComponent },
+  { path: 'about', component: AboutComponent }
 ]
 
 @NgModule({
@@ -30,6 +30,7 @@ const appRoutes: Routes = [
     AboutComponent,
     FooterComponent
   ],
+
   imports: [
     BrowserModule,
     FontAwesomeModule,
@@ -37,6 +38,7 @@ const appRoutes: Routes = [
     FormsModule,
     RouterModule.forRoot(appRoutes, {enableTracing: true})
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

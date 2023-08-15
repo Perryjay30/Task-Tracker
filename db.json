@@ -40,12 +40,6 @@
       "text": "Appointment with President",
       "day": "May 10th at 8:00am",
       "reminder": true
-    },
-    {
-      "text": "Graduation",
-      "day": "August 25th",
-      "reminder": true,
-      "id": 6
     }
   ]
 }
